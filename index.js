@@ -1,6 +1,5 @@
 function shout(string) {
   return string.toUpperCase()
-  expect (sayHiToGrandma('HELLO')).toEqual("YES INDEED")
 }
 function logShout(sayHiToGrandma) {
   console.log('HELLO')
@@ -8,7 +7,6 @@ function logShout(sayHiToGrandma) {
 }
 function whisper(string) {
   return string.toLowerCase()
-  expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
 }
 function logWhisper(sayHiToGrandma) {
   console.log('hello')
